@@ -1,10 +1,9 @@
-import * as React from "react"
+import * as React from "react";
+import ApprenticeshipLayout from "../layout/apprenticeshipLayout";
 
 // markup
 const IndexPage = () => {
-  return (
-   
-  )
-}
+  return <ApprenticeshipLayout>-content-</ApprenticeshipLayout>;
+};
 
-export default IndexPage
+export default IndexPage;
