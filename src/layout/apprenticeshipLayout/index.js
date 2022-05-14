@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Global, css } from "@emotion/react";
+import Header from "../../components/Header";
 
 const ApprenticeshipLayout = ({ children }) => {
   return (
@@ -11,6 +12,7 @@ const ApprenticeshipLayout = ({ children }) => {
           }
         `}
       />
+      <Header />
       <main>{children}</main>
     </>
   );
