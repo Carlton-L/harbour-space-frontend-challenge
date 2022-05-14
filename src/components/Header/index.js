@@ -8,6 +8,7 @@ const Header = () => {
     <div
       sx={{
         position: "fixed",
+        top: 0,
         height: ["66px", null, null, "74px", null],
         width: "100%",
         zIndex: "999",
