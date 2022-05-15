@@ -9,8 +9,8 @@ module.exports = {
     accent: "#fbfbfb",
     muted: "#dadada",
   },
-  space: [0, 2, 4, 8, 12, 16, 20, 24, 32, 40, 48, 64, 80, 96, 160],
-  breakpoints: ["23.4375em", "48em", "63em", "64em", "71.125em"],
+  space: [0, 4, 8, 12, 16, 20, 24, 32, 40, 48, 64, 80, 96, 160],
+  breakpoints: ["48em", "64em", "71.125em"],
   radii: [0, 4, 29],
   fontSizes: [],
   fonts: {
@@ -23,14 +23,41 @@ module.exports = {
     heading: 500,
     bold: 500,
   },
+  fontSizes: {
+    // These font sizes don't work responsively, must be hard-coded in sx prop
+    button: ["1em", "1.125em"],
+    h1: ["2.188em", "3em"],
+    h2: ["2.188em", "3em"],
+    h3: ["1.125em", "1.375em"],
+    subtitle: ["1.5em", "1.625em"],
+    body1: ["1.125em", "1.375em"],
+    body2: "1em",
+  },
   text: {
     default: {
       color: "text",
       fontFamily: "body",
+      lineHeight: "26px",
     },
     heading: {
       color: "primary",
       fontFamily: "heading",
+    },
+  },
+  buttons: {
+    primary: {
+      fontSize: ["1em", "1.125em"],
+      py: 4,
+      px: 8,
+      bg: "primary",
+      width: "auto",
+      borderRadius: 2,
+      cursor: "pointer",
+      transition: "filter 0.3s ease",
+      display: "inline-block",
+      "&:hover": {
+        filter: "brightness(70%)",
+      },
     },
   },
   styles: {

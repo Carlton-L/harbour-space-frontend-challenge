@@ -1,5 +1,8 @@
 import * as React from "react";
 import { Global, css } from "@emotion/react";
+
+import "../../fonts/typography.css";
+
 import Header from "../../components/Header";
 
 const ApprenticeshipLayout = ({ children }) => {
@@ -12,7 +15,6 @@ const ApprenticeshipLayout = ({ children }) => {
           }
           body {
             margin: 0;
-            font-family: sans-serif;
           }
         `}
       />

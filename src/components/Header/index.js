@@ -9,7 +9,7 @@ const Header = () => {
       sx={{
         position: "fixed",
         top: 0,
-        height: ["66px", null, null, "74px", null],
+        height: ["66px", null, "74px", null],
         width: "100%",
         zIndex: "999",
       }}
@@ -26,8 +26,8 @@ const Header = () => {
           background: "primary",
           color: "background",
           py: 0,
-          pl: ["20px", null, null, "30px", null],
-          paddingRight: ["20px", null, null, "85px", null],
+          pl: ["20px", null, "30px", null],
+          paddingRight: ["20px", null, "85px", null],
         }}
       >
         <div
