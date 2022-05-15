@@ -9,6 +9,34 @@ module.exports = {
     accent: "#fbfbfb",
     muted: "#dadada",
   },
+  space: [0, 2, 4, 8, 12, 16, 20, 24, 32, 40, 48, 64, 80, 96, 160],
   breakpoints: ["23.4375em", "48em", "63em", "64em", "71.125em"],
   radii: [0, 4, 29],
+  fontSizes: [],
+  fonts: {
+    body: "Apercu Pro",
+    heading: "Apercu Pro",
+    monospace: "Apercu Pro Mono",
+  },
+  fontWeights: {
+    body: 300,
+    heading: 500,
+    bold: 500,
+  },
+  text: {
+    default: {
+      color: "text",
+      fontFamily: "body",
+    },
+    heading: {
+      color: "primary",
+      fontFamily: "heading",
+    },
+  },
+  styles: {
+    root: {
+      fontFamily: "body",
+      fontSize: "paragraph",
+    },
+  },
 };
