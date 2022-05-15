@@ -14,6 +14,18 @@ const AboutSection = ({ data }) => {
         minWidth: "334px",
         mx: [6, "auto"],
         mt: [11, 13],
+        position: "relative",
+        "::before": {
+          content: '""',
+          display: ["block", "none"],
+          width: "100vw",
+          height: "400px",
+          position: "absolute",
+          top: "25%",
+          left: "-24px",
+          bg: "primary",
+          zIndex: "-10",
+        },
       }}
     >
       {/* TODO: This section breaks around 860px, may need another breakpoint */}
@@ -38,6 +50,7 @@ const AboutSection = ({ data }) => {
             borderBottomStyle: ["none", "solid"],
             backgroundImage: `url(${pattern})`,
             backgroundSize: "40px",
+            bg: "background",
             borderColor: "muted",
             width: ["334px", "438px"],
             height: ["168px", "438px"],
@@ -77,10 +90,11 @@ const AboutSection = ({ data }) => {
             pt: ["180px", "0px"],
             px: [5, 0],
             pb: [8, 0],
-            mx: 6,
             maxWidth: ["768px", "480px"],
+            minWidth: "334px",
             justifyContent: "flex-end",
             flexDirection: "column",
+            bg: "background",
           }}
         >
           <Heading
