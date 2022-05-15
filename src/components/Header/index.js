@@ -65,7 +65,7 @@ const Header = () => {
               width: ["60px", "80px", null, "100px", null],
               height: ["60px", "80px", null, "100px", null],
               borderRadius: "100px",
-              transition: "transform 0.5s ease",
+              transition: "transform 0.2s ease",
               textAlign: "center",
               "&:hover": {
                 transform: "scale(1.1)",

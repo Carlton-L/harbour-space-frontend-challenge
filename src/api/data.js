@@ -17,10 +17,10 @@ module.exports = {
     application_end_date: "2020-03-30 00:00:00",
     duration: 1,
     duration_text:
-      "You&apos;ll be guaranteed a 1 year contract with SCG upon graduation.",
+      "You'll be guaranteed a 1 year contract with SCG upon graduation.",
     position: "Marketing Performance",
     about:
-      "Our scholarships are designed to give talented and driven young people from any background access to top-class education, experience and network. We offer a fully-funded master&apos;s degree alongside an apprenticeship and a guaranteed job upon graduation.",
+      "Our scholarships are designed to give talented and driven young people from any background access to top-class education, experience and network. We offer a fully-funded master&'s degree alongside an apprenticeship and a guaranteed job upon graduation.",
     tuition: 20900,
     total_value: 31300,
     stipend_per_month: 700,
@@ -31,7 +31,7 @@ module.exports = {
     study_commitment_text:
       "You will complete 15 modules to graduate. Daily classes are 3 hours, plus coursework to complete in your own time.",
     internship_commitment_text:
-      "Immerse yourself in the professional world during your apprenticeship. You&apos;ll learn the ropes from the best and get to apply your newly acquired knowledge in the field from day one.",
+      "Immerse yourself in the professional world during your apprenticeship. You&'ll learn the ropes from the best and get to apply your newly acquired knowledge in the field from day one.",
     company: {
       id: 45,
       name: "Zeptolab",
@@ -46,7 +46,7 @@ module.exports = {
           education: "B.A. Visual Design",
           small_picture: "",
           quote:
-            "This Fellowship was a turning point in my career. I wouldn&apos;t be where I am today without the financial support and experienced offered through the program.",
+            "This Fellowship was a turning point in my career. I wouldn&'t be where I am today without the financial support and experienced offered through the program.",
           social_links: [
             {
               type: "linkedin",
@@ -60,7 +60,7 @@ module.exports = {
           education: "B.A. Visual Design",
           small_picture: "",
           quote:
-            "This Fellowship was a turning point in my career. I wouldn&apos;t be where I am today without the financial support and experienced offered through the program.",
+            "This Fellowship was a turning point in my career. I wouldn&'t be where I am today without the financial support and experienced offered through the program.",
           social_links: [
             {
               type: "linkedin",
@@ -74,7 +74,7 @@ module.exports = {
           education: "B.A. Visual Design",
           small_picture: "",
           quote:
-            "This Fellowship was a turning point in my career. I wouldn&apos;t be where I am today without the financial support and experienced offered through the program.",
+            "This Fellowship was a turning point in my career. I wouldn&'t be where I am today without the financial support and experienced offered through the program.",
           social_links: [
             {
               type: "linkedin",

@@ -14,6 +14,7 @@ const StatsSection = ({ data }) => {
         minWidth: "334px",
         mx: [6, 8],
         mt: [11, 13],
+        mb: ["128px", "170px"],
       }}
     >
       <Flex sx={{ flexDirection: ["column", "row"] }}>
@@ -22,6 +23,7 @@ const StatsSection = ({ data }) => {
           sx={{
             flexDirection: "column",
             borderStyle: ["none", "solid"],
+            borderWidth: "1px",
             borderRadius: 1,
             borderColor: "muted",
             px: [0, 8],

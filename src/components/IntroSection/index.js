@@ -1,15 +1,6 @@
 /** @jsx jsx */
 import * as React from "react";
-import {
-  jsx,
-  Box,
-  Container,
-  Button,
-  Flex,
-  Heading,
-  Select,
-  Text,
-} from "theme-ui";
+import { jsx, Box, Button, Flex, Heading, Text } from "theme-ui";
 
 import logo from "../../images/Zeptolab_icon.svg";
 
