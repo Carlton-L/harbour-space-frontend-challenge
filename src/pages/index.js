@@ -4,6 +4,7 @@ import { jsx } from "theme-ui";
 
 import ApprenticeshipLayout from "../layout/apprenticeshipLayout";
 import IntroSection from "../components/IntroSection";
+import AboutSection from "../components/AboutSection";
 
 import data from "../api/data.js";
 
@@ -19,8 +20,7 @@ const IndexPage = () => {
         }}
       >
         <IntroSection data={data} />
-
-        <section>content</section>
+        <AboutSection data={data} />
       </div>
     </ApprenticeshipLayout>
   );
