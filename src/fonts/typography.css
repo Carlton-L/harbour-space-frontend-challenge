@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Apercu Pro";
+  src: url(../fonts/ApercuPro-Light.woff) format("woff"),
+    url(../fonts/ApercuPro-Light.woff2) format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Apercu Pro";
+  src: url(../fonts/ApercuPro-Regular.woff) format("woff"),
+    url(../fonts/ApercuPro-Regular.woff2) format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
