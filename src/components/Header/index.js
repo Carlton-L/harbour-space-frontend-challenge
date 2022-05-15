@@ -81,6 +81,7 @@ const Header = () => {
                 height: "100%",
                 justifyContent: "center",
                 alignItems: "center",
+                textTransform: "uppercase",
               }}
             >
               Apply <br /> Now
