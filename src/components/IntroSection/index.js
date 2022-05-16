@@ -2,6 +2,7 @@
 import * as React from "react";
 import { jsx, Box, Button, Flex, Heading, Text } from "theme-ui";
 
+import icon from "../../images/id_icon.png";
 import logo from "../../images/Zeptolab_icon.svg";
 
 import Card from "../Card";
@@ -20,14 +21,24 @@ const IntroSection = ({ data }) => {
           sx={{
             flexDirection: ["column", "row"],
             justifyContent: ["flex-start", "space-between"],
+            position: "relative",
           }}
         >
+          {/* TODO: Re-implement the icon element in a better way */}
           <Heading
             as="h1"
             sx={{
               fontSize: ["2.188em", "3em"],
               pl: [0, 8],
               maxWidth: ["768px", "480px"],
+              zIndex: "100",
+              "&:before": {
+                position: "absolute",
+                left: ["50%", "250px"],
+                top: "-100px",
+                zIndex: "99",
+                content: `url(${icon})`,
+              },
             }}
           >
             {data.scholarship.name}
