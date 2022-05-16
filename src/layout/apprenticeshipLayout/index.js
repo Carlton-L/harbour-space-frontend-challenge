@@ -4,8 +4,9 @@ import { Global, css } from "@emotion/react";
 import "../../fonts/typography.css";
 
 import Header from "../../components/Header";
+import BottomStickyBar from "../../components/BottomStickyBar";
 
-const ApprenticeshipLayout = ({ children }) => {
+const ApprenticeshipLayout = ({ children, data }) => {
   return (
     <>
       <Global
@@ -23,6 +24,7 @@ const ApprenticeshipLayout = ({ children }) => {
       />
       <Header />
       <main>{children}</main>
+      <BottomStickyBar data={data} />
     </>
   );
 };

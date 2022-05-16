@@ -13,7 +13,7 @@ import data from "../api/data.js";
 // markup
 const IndexPage = () => {
   return (
-    <ApprenticeshipLayout>
+    <ApprenticeshipLayout data={data}>
       <div
         sx={{
           my: ["12.625em", "17.125em"],
