@@ -4,7 +4,6 @@ import { jsx, Box, Button, Flex, Heading, Text } from "theme-ui";
 
 import icon from "../../images/id_icon.png";
 import logo from "../../images/Zeptolab_icon.svg";
-import pattern from "../../images/pattern.svg";
 
 import Card from "../Card";
 
@@ -33,7 +32,7 @@ const IntroSection = ({ data }) => {
               pl: [0, 8],
               maxWidth: ["768px", "480px"],
               zIndex: "100",
-              "&:after": {
+              "&:before": {
                 position: "absolute",
                 left: ["50%", "250px"],
                 top: "-100px",
@@ -117,7 +116,6 @@ const IntroSection = ({ data }) => {
               maxWidth: ["768px", "480px"],
               flexBasis: 0,
               flexGrow: 1,
-              position: "relative",
             }}
           >
             <Card
@@ -143,12 +141,7 @@ const IntroSection = ({ data }) => {
                 py: 6,
               }}
             >
-              <Flex
-                sx={{
-                  flexWrap: "wrap",
-                  justifyContent: "space-between",
-                }}
-              >
+              <Flex sx={{ flexWrap: "wrap", justifyContent: "space-between" }}>
                 <Flex
                   sx={{
                     flexDirection: "column",
@@ -209,23 +202,6 @@ const IntroSection = ({ data }) => {
                 </Flex>
               </Flex>
             </Card>
-            <Box
-              sx={{
-                zIndex: -1,
-                position: "absolute",
-                display: ["none", "block"],
-                width: "560px",
-                height: "250px",
-                backgroundImage: `url(${pattern})`,
-                backgroundSize: "40px",
-                bg: "background",
-                bottom: "-50px",
-                left: "80px",
-                borderColor: "muted",
-                borderWidth: "1px",
-                borderStyle: "solid",
-              }}
-            ></Box>
           </Flex>
         </Flex>
       </Flex>
