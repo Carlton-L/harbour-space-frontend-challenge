@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/harbour-space-frontend-challenge",
   siteMetadata: {
     title: `Harbour.Space`,
     siteUrl: `https://www.yourdomain.tld`,
