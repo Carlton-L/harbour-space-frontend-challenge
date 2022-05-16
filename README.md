@@ -18,4 +18,5 @@ Live prototype can be found here: https://carlton.dev/harbour-space-frontend-cha
     ```
 
 Issues: https://github.com/Carlton-L/harbour-space-frontend-challenge/issues
+
 Latest Pull Request: https://github.com/Carlton-L/harbour-space-frontend-challenge/pull/1
