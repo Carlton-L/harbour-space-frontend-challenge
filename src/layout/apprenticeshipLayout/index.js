@@ -13,6 +13,9 @@ const ApprenticeshipLayout = ({ children }) => {
           * {
             box-sizing: border-box;
           }
+          html {
+            overflow-x: hidden;
+          }
           body {
             margin: 0;
           }
