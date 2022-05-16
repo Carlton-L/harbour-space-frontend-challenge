@@ -6,6 +6,7 @@ import ApprenticeshipLayout from "../layout/apprenticeshipLayout";
 import IntroSection from "../components/IntroSection";
 import AboutSection from "../components/AboutSection";
 import StatsSection from "../components/StatsSection";
+import QuotesSection from "../components/QuotesSection";
 
 import data from "../api/data.js";
 
@@ -23,6 +24,7 @@ const IndexPage = () => {
         <IntroSection data={data} />
         <AboutSection data={data} />
         <StatsSection data={data} />
+        <QuotesSection data={data} />
       </div>
     </ApprenticeshipLayout>
   );

@@ -46,7 +46,7 @@ module.exports = {
           education: "B.A. Visual Design",
           small_picture: "",
           quote:
-            "This Fellowship was a turning point in my career. I wouldn&'t be where I am today without the financial support and experienced offered through the program.",
+            "This Fellowship was a turning point in my career. I wouldn't be where I am today without the financial support and experienced offered through the program.",
           social_links: [
             {
               type: "linkedin",
@@ -60,7 +60,7 @@ module.exports = {
           education: "B.A. Visual Design",
           small_picture: "",
           quote:
-            "This Fellowship was a turning point in my career. I wouldn&'t be where I am today without the financial support and experienced offered through the program.",
+            "This Fellowship was a turning point in my career. I wouldn't be where I am today without the financial support and experienced offered through the program.",
           social_links: [
             {
               type: "linkedin",
@@ -74,7 +74,7 @@ module.exports = {
           education: "B.A. Visual Design",
           small_picture: "",
           quote:
-            "This Fellowship was a turning point in my career. I wouldn&'t be where I am today without the financial support and experienced offered through the program.",
+            "This Fellowship was a turning point in my career. I wouldn't be where I am today without the financial support and experienced offered through the program.",
           social_links: [
             {
               type: "linkedin",

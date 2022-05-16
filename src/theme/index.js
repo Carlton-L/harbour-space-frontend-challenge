@@ -59,6 +59,17 @@ module.exports = {
         filter: "brightness(70%)",
       },
     },
+    slider: {
+      width: "48px",
+      height: "48px",
+      cursor: "pointer",
+      bg: "background",
+      borderColor: "muted",
+      borderStyle: "solid",
+      borderWidth: "1px",
+      borderRadius: "48px",
+      mx: "8px",
+    },
   },
   styles: {
     root: {
