@@ -1,5 +1,6 @@
+/** @jsx jsx */
 import * as React from "react";
-import { Global, css } from "@emotion/react";
+import { Global, css, jsx } from "@emotion/react";
 
 import "../../fonts/typography.css";
 
@@ -8,14 +9,11 @@ import BottomStickyBar from "../../components/BottomStickyBar";
 
 const ApprenticeshipLayout = ({ children, data }) => {
   return (
-    <>
+    <div css={{ overflow: "hidden", position: "relative", height: "auto" }}>
       <Global
         styles={css`
           * {
             box-sizing: border-box;
-          }
-          html {
-            overflow-x: hidden;
           }
           body {
             margin: 0;
@@ -25,7 +23,7 @@ const ApprenticeshipLayout = ({ children, data }) => {
       <Header />
       <main>{children}</main>
       <BottomStickyBar data={data} />
-    </>
+    </div>
   );
 };
 
